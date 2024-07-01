@@ -100,21 +100,9 @@ nav {
 }
 
 main {
-  background-color: lightpink;
+  /*background-color: lightpink;*/
   flex-basis: 75%;
   padding: 1%;
-}
-
-@media screen and (min-width: 600px) {
-  main {
-    background-color: lightskyblue;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  main {
-    background-color: springgreen;
-  }
 }
 
 aside {
@@ -204,3 +192,21 @@ audio,video {
 .pdf {
   width: 5rem;
 }
+
+.toggle_link {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: normal;
+  text-decoration: underline dotted;
+  font-family: "Ubuntu-L", Helvetica, Arial, sans-serif;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
